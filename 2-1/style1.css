@@ -33,7 +33,7 @@ body {
     width: 150px;
     height: 250px;
     background-color: #80bfa8;
-    float: none;
+    float: left;
 }
 
 /* right */
@@ -41,7 +41,7 @@ body {
     width: 250px;
     height: 250px;
     background-color: #8c2727;
-    float: none;
+    float: left;
 }
 
 /* footerの始まり */
