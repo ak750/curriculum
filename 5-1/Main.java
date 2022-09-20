@@ -51,8 +51,11 @@ public class Main {
 		{
 //      問⑦ 配列arrayDateに今の年・月・日を入れてください。
             Calendar cal = Calendar.getInstance();
+            int year = cal.get(Calendar.YEAR);
+            int month = cal.get(Calendar.MONTH) + 1;
+            int day = cal.get(Calendar.DATE);
 //	    <以下記述>
-            Integer[] arrayDate = {2022, 9, 19};
+            Integer[] arrayDate = {year, month, day};
 //      問⑧ 配列arrayDateをList型に変更しましょう。
 //	    <以下記述>
             List<Integer> list = Arrays.asList(arrayDate);
