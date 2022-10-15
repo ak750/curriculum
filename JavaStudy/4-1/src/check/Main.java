@@ -3,8 +3,8 @@ package check;
 import constants.*;
 
 public class Main {
-	private static final String firstName = "Furudoi";
-	private static final String lastName = "Akira";
+	private static final String firstName = "Sato";
+	private static final String lastName = "Taro";
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
